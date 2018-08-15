@@ -4,14 +4,15 @@ Simple React app that uses the Django framework for its backend.
 
 # Usage:
 
-Install dependencies and build react app
+-Install dependencies and build react app
 
-npm install
+    npm install
 
-npm run build
+    npm run build
 
 Run web server as you would with any Django project:
 
-python manage.py runserver
+    python manage.py runserver
 
-*uses python 3*
+
+Note: This project uses python 3
