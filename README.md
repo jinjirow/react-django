@@ -16,3 +16,6 @@ Run web server as you would with any Django project:
 
 
 Note: This project uses python 3
+You will also need to provide a secret key for the Django app
+I kept mine locally in a file named params.py you will see that
+referenced in settings.py.
