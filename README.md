@@ -4,7 +4,7 @@ Simple React app that uses the Django framework for its backend.
 
 # Usage:
 
--Install dependencies and build react app
+-Install dependencies and build React app
 
     npm install
 
