@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
-
 import { Col,
          Collapse,
          InputGroup,
@@ -43,7 +42,6 @@ class App extends Component{
     axios.get(`/postings`)
         .then(res => {
           const postings = res.data;
-          alert(postings)
     })
   }
 
@@ -66,7 +64,7 @@ class App extends Component{
         <div>
           <Navbar color="light" light expand="md" >
             <Col sm={10}>
-              <NavbarBrand href="/">Creg</NavbarBrand>
+              <NavbarBrand href="/">Creg Unchained</NavbarBrand>
             </Col>
             <InputGroup align="right" style={{"width" : "150px"}}>
               <Input type="text" style={{"float" : "right"}} placeholder="Search" onChange={this.filterList}/>
@@ -75,11 +73,9 @@ class App extends Component{
           <Row>
           <Col>
             <div>
-              <h1>post stuff</h1>
             </div>
           </Col>
-          <Card style={{"width" : "400px"}}>
-
+          <Card style={{"width" : "242px", "marginRight" : "40px"}}>
             {listItems}
           </Card>
           </Row>
