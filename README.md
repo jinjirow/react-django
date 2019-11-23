@@ -1,6 +1,6 @@
 # Unchained
 
-Simple React app that uses the Django framework for its backend.
+Example of how you can create a React app that uses the Django framework for its backend.
 
 # Usage:
 
